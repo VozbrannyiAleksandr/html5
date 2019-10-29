@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Sample</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home Page</a>
+    </nav>
+    <section>
+        <h1>Form</h1>
+        <form action="https://formspree.io/xeqjrpow"
+              method="POST">
+            <label>
+                User Name: <input type="text" name="user-name" placeholder="User Name">
+            </label>
+            <br>
+            <br>
+            <label>
+              Email: <input type="email" name="email" placeholder="Email">
+            </label>
+            <br>
+            <br>
+            <label>Gender</label>
+            <label>
+                <input type="radio" name="gender" value="male">Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">Other
+            </label>
+            <br>
+                <h2>Pick up the right answers:</h2>
+                    <label>What is the most major content of the Universe?</label>
+                    <br>
+                    Answer 1: <input type="text" name="Answer 1" id="universe" list="mySuggestion0">
+                    <datalist id="mySuggestion0">
+                    <option>Dark energy</option>
+                    <option>Banana</option>
+                    <option>Dark metter</option>
+                    <option>Blueberry</option>
+                    <option>Flat</option>
+                    </datalist>
+                    <br>
+                    <label>Chose 3 main elements of wich the Universe is composed of:</label>
+                    <br>
+                        Answer 2:<input type="text" name="Answer 2" id="what1" list="mySuggestion1">
+                        <datalist id="mySuggestion1">
+                        <option>Dark energy</option>
+                        <option>Banana</option>
+                        <option>Dark metter</option>
+                        <option>Ordinary matter</option>
+                        <option>Flat</option>
+                        </datalist>
+                            <input type="text" name="Answer 2" id="what2" list="mySuggestion2">
+                            <datalist id="mySuggestion2">
+                            <option>Dark energy</option>
+                            <option>Banana</option>
+                            <option>Dark metter</option>
+                            <option>Ordinary matter</option>
+                            <option>Flat</option>
+                            </datalist>
+                                <input type="text" name="Answer 2" id="what3" list="mySuggestion3">
+                                <datalist id="mySuggestion3">
+                                <option>Dark energy</option>
+                                <option>Banana</option>
+                                <option>Dark metter</option>
+                                <option>Ordinary matter</option>
+                                <option>Flat</option>
+                                </datalist>
+                    <br>
+                    <h3>Match correct answer:</h3>
+                        <label>On wich planet do you live ?</label>
+                        <br>
+                        <label>Earth</label>
+                        <input type="checkbox" name="On wich planet do you live ?" value="Earth">
+                        <br>
+                        <label>Mars</label>
+                        <input type="checkbox" name="On wich planet do you live ?" value="Mars">
+                        <br>
+                        <label>Jupiter</label>
+                        <input type="checkbox" name="On wich planet do you live ?" value="Jupiter">
+            <br>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</body>
+</html>
